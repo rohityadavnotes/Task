@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Task</string>
+
+    <!-- ***** TaskActivity ***** -->
+    <string name="task_activity">Task Activity</string>
+    <string name="count">Count</string>
+    <string name="confirm_exit">Confirm Exit</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure, You want to exit ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="sign_in_success">Sign In Success</string>
+
+    <!-- ***** CategoryFragment ***** -->
+    <string name="category_fragment">Category Fragment</string>
+
+    <!-- ***** ItemFragment ***** -->
+    <string name="item_fragment">Item Fragment</string>
+
+    <!-- ***** CartFragment ***** -->
+    <string name="cart_fragment">Chat Fragment</string>
+</resources>

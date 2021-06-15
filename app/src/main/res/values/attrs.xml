@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="DottedProgressBar">
+        <attr name="emptyDotsColor" format="color" />
+        <attr name="activeDotColor" format="color"/>
+        <attr name="inactiveDot" format="reference|color"/>
+        <attr name="activeDot" format="reference|color"/>
+        <attr name="dotSize" format="dimension"/>
+        <attr name="spacing" format="dimension"/>
+        <attr name="jumpingSpeed" format="integer"/>
+        <attr name="activeDotIndex" format="integer"/>
+    </declare-styleable>
+</resources>

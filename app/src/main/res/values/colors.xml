@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800080</color>
+    <color name="colorPrimaryDark">#800080</color>
+    <color name="colorAccent">#800080</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorPlaceHolder">#e3e3e3</color>
+
+    <color name="colorPurple">#800080</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="white_a26">#42ffffff</color>
+    <color name="black_a85">#D9000000</color>
+
+    <color name="divider">#ffd2d2d2</color>
+
+    <color name="av_text_color">#000000</color>
+    <color name="av_btn_color">#000000</color>
+    <dimen name="av_text_size">14dp</dimen>
+    <dimen name="av_btn_size">14dp</dimen>
+
+    <!-- Badge count text colors -->
+    <color name="colorBadge">#1ED52A</color>
+</resources>

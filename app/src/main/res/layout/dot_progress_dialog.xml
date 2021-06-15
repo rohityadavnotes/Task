@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.task.progressdialog.DottedProgressBar
+        android:id="@+id/dotted_progress_bar"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="@dimen/_10sdp"
+        app:activeDot="@drawable/ic_gradient_dot_progress_bar_active"
+        app:inactiveDot="@drawable/ic_gradient_dot_progress_bar_in_active"
+        app:dotSize="@dimen/_18sdp"
+        app:jumpingSpeed="150"
+        app:spacing="@dimen/_15sdp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
